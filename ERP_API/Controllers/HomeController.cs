@@ -11,7 +11,7 @@ namespace ERP_API.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            ViewBag.Test = "123";
             return View();
         }
     }
